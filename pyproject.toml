@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-se-hw2"
+version = "0.1.0"
+description = "Personal assistant bot."
+authors = ["Kate Kozachenko <kottya1995@ukr.net>"]
+license = "n"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+DateTime = "^5.5"
+addressbook = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
