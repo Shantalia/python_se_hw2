@@ -14,9 +14,6 @@ RUN pip install poetry
 # Скопіюємо інші файли в робочу директорію контейнера
 COPY . .
 
-# Додаємо виконавчий файл Poetry в PATH
-#ENV PATH="${PATH}:/root/.poetry/bin"
-
 # Встановимо залежності всередині контейнера
 RUN poetry install
 
